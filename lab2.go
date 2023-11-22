@@ -18,18 +18,19 @@ func main() {
 	//Boolean logic
 	var myBool bool = true // false
 	fmt.Print(myBool)
-
+	println()
+	println("===================================================")
 	var mySecondBool bool = false
 	fmt.Println(mySecondBool)
-
+	println("===================================================")
 	//String chuỗi
 	var myString string = "hi"
 	fmt.Println(myString)
-
+	println("===================================================")
 	//Int số nguyên
 	var myInt int = 23
 	fmt.Println(myInt)
-
+	println("===================================================")
 	//Range
 	fmt.Println(math.MinInt8)
 	fmt.Println(math.MaxInt8)
@@ -72,11 +73,13 @@ func main() {
 	var myByte byte = 1
 	fmt.Println(myByte)
 	fmt.Printf("%T", myByte)
+	println()
 	//fmt.Println(math.MaxUint8)
 
 	fmt.Println("==============")
 	var a byte = 'E'
 	fmt.Printf("%X", a)
+	println()
 	//Trong hệ thập lục phân, giá trị của ký tự 'E' là 45
 	//%X được sử dụng để in ra giá trị số nguyên không dấu (unsigned integer) dưới dạng chuỗi thập lục phân
 
@@ -99,18 +102,22 @@ func main() {
 	runes := []rune(myString2)
 	for i := 0; i < len(runes); i++ {
 		fmt.Printf("%c", runes[i])
+		println()
 	}
 
 	fmt.Println("==============")
 	var myRune rune = 'A'
 	fmt.Printf("%T", myRune)
+	println()
 	//%T trong Printf, ta in ra kiểu dữ liệu của biến myRune
 
 	fmt.Println("==============")
 	var mRune rune = '�'
 	fmt.Printf("%c - %u - %d", mRune, mRune, mRune)
+	println()
 	//In ra ký tự '�' (ký tự không hợp lệ trong Unicode), giá trị Unicode của ký tự đó là 65533 và giá trị số nguyên có dấu của ký tự đó cũng là 65533
 
+	fmt.Println("==============")
 	const PI = 3.14159
 	//Nếu khai báo hằng số thì không thể gán lại
 	//PI := 123

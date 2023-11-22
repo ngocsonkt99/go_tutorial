@@ -19,15 +19,16 @@ func main() {
 	} else {
 		fmt.Printf("So bang %v", number)
 	}
-
 	fmt.Println("")
+
+	println("===============================================================")
 	//if statemen; condition { // code } gán và so sánh điều kiện luôn
 	if a := 100; a > 100 {
 		fmt.Println("a>100")
 	} else {
 		fmt.Println("a=100")
 	}
-
+	println("===============================================================")
 	//Switch - Case
 	So := 13
 	switch So {
@@ -44,7 +45,6 @@ func main() {
 	}
 
 	println("===============================================================")
-
 	SoNumber := 19
 	switch SoNumber {
 	case 19:

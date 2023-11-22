@@ -15,8 +15,8 @@ func main() {
 	var email = "rybuson@gmail.com"
 	fmt.Println(email)
 
+	println("===================================================")
 	//Khai bao nhieu bien
-
 	//Cung type
 	var a, b int
 	a = 1
@@ -32,6 +32,7 @@ func main() {
 	fmt.Println(a2)
 	fmt.Println(b2)
 
+	println("===================================================")
 	//Khac type
 	var (
 		name    string
@@ -46,6 +47,7 @@ func main() {
 	fmt.Println(name)
 	fmt.Println(address)
 	fmt.Println(age)
+	println("====================")
 
 	var (
 		name1    string = "Son"
@@ -56,11 +58,13 @@ func main() {
 	fmt.Println(name1)
 	fmt.Println(address1)
 	fmt.Println(age1)
+	println("====================")
 
 	var name2, address2, age2 = "Ung", "15 Vo Van Kiet", 26
 	fmt.Println(name2)
 	fmt.Println(address2)
 	fmt.Println(age2)
+	println("====================")
 
 	language := "Golang"
 	fmt.Println(language)
